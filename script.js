@@ -13,7 +13,7 @@ sendButton.addEventListener('click', function (e) {
     let email = document.getElementById('email');
     let message = document.getElementById('message');
     
-    if (name.value == "" || email.value == "") {
+    if (name.value == '' || email.value == '') {
         alert('Ensure you input a value in all fields!');
       } else {
         alert('Your message was sent successfully!');
